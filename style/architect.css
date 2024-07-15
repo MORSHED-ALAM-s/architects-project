@@ -22,11 +22,25 @@
  .bg-color{
     background-color: rgba(255, 144, 14, 0.1);
  }
+ .btn-primary{
+    background-color: #FF900E;
+    padding: 20px 24px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    border: none;
+ }
 /* header styles */
 
 /* nav bar related styles */
 .navbar{
     justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
 }
 .nav-item{
     list-style: none;
@@ -37,7 +51,29 @@
     font-weight: 500;
 }
 .navbar, .bannar{
-    max-width: 1250px;
+    max-width: 1420px;
     margin: 0 auto;
 
+}
+/* bannar styles */
+.bannar-containt{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.bannar-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.bannar-img{
+    width: 100%;
+}
+
+/* resposive */
+@media screen and (max-width:576px) {
+    .display-flex{
+        flex-direction: column;
+    }
+    
 }
