@@ -106,6 +106,26 @@
 #quick-list{
     font-weight: 500;
 }
+/* features section styles */
+#featur-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.enjoy{
+    gap: 100px;
+}
+.enjoy-img{
+    margin: 0 auto;
+}
+.feature-card  {
+    font-weight : 600;
+    font-size: 1.25rem;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 5px;
+
+}
 /* some fact related styles */
 .fact-container{
     display: grid;
